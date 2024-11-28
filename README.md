@@ -23,7 +23,7 @@ I would suggest binding these commands to hotkeys. You might find a plugin like 
 This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>
 
 # About me
-I amongst other things work on productivity tools and AI tools related to reading.
+I make productivity tools and AI tools related to reading.
 If that sounds interesting you can follow me on <a href="https://x.com/readwithai">twitter</a> or <a href="https://bsky.app/profile/readwithai.bsky.social">bluesky</a>.
 
 I write about these topics on <a href="https://readwithai.substack.com/readwithai">substack</a>.
