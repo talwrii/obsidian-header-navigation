@@ -22,7 +22,7 @@ I would suggest binding these commands to hotkeys. You might find a plugin like 
 # Influences
 This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>
 
-This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser.
+This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser and its source code is included (under and MIT license) within the js output.
 
 # About me
 I make productivity tools and AI tools related to reading.
