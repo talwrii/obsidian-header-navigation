@@ -19,6 +19,8 @@ This will show the commands that this plugin provides.
 
 I would suggest binding these commands to hotkeys. You might find a plugin like [sequence hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys) useful, this allows you to define a "prefix" key such as C-m for motion commands so you can then assing C-m Up etc for moving around headers.
 
+![demonstraction of features][demo.gif]
+
 # Influences
 This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>
 
