@@ -22,6 +22,8 @@ I would suggest binding these commands to hotkeys. You might find a plugin like 
 # Influences
 This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>
 
+This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser.
+
 # About me
 I make productivity tools and AI tools related to reading.
 If that sounds interesting you can follow me on <a href="https://x.com/readwithai">twitter</a> or <a href="https://bsky.app/profile/readwithai.bsky.social">bluesky</a>.
