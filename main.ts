@@ -143,7 +143,7 @@ export default class HeaderNavPlugin extends Plugin {
             result.push(parseRemarkPos(tree.position.start))
         }
         for (let i = 0; i < (tree.children || []).length; i++) {
-            let child = tree.children[i]
+            const child = tree.children[i]
             result.push(...this.flatHeadings(child))
         }
         return result
@@ -199,7 +199,8 @@ export default class HeaderNavPlugin extends Plugin {
         // Find the header depth of a line
         const content = editor.getLine(line)
 
-        for (let i = 0; i < content.length; i++) {
+        let i = 0
+        for (i = 0; i < content.length; i++) {
             if (content[i] != "#") {
                 break
             }
