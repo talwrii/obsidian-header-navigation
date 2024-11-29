@@ -106,7 +106,7 @@ export default class HeaderNavPlugin extends Plugin {
 
     findHeadingBefore(editor: Editor, tree: Object, position: EditorPosition, depth?: number): EditorPosition | undefined {
         // In a remark tree, find the header before this posiition
-        var before: EditorPosition | undefined = undefined;
+        let before: EditorPosition | undefined = undefined;
         const headings = this.flatHeadings(tree)
         headings.forEach((p) => {
             if (p.line < position.line) {
@@ -142,7 +142,7 @@ export default class HeaderNavPlugin extends Plugin {
         if (tree.type == "heading") {
             result.push(parseRemarkPos(tree.position.start))
         }
-        for (var i = 0; i < (tree.children || []).length; i++) {
+        for (let i = 0; i < (tree.children || []).length; i++) {
             let child = tree.children[i]
             result.push(...this.flatHeadings(child))
         }
@@ -199,7 +199,7 @@ export default class HeaderNavPlugin extends Plugin {
         // Find the header depth of a line
         const content = editor.getLine(line)
 
-        for (var i = 0; i < content.length; i++) {
+        for (let i = 0; i < content.length; i++) {
             if (content[i] != "#") {
                 break
             }
