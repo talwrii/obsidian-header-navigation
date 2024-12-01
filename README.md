@@ -34,4 +34,4 @@ If that sounds interesting you can follow me on <a href="https://x.com/readwitha
 
 I write about these topics on <a href="https://readwithai.substack.com/readwithai">substack</a>.
 
-If you find *this* piece of software useful. Maybe give me money (like $2 dollars?) on my <a href="ko-fi.com/readwithai">kofi</a>.
+If you find *this* piece of software useful. Maybe give me money (like $2 dollars?) on my <a href="https://ko-fi.com/readwithai">kofi</a>.
