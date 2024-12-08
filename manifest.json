@@ -1,7 +1,7 @@
 {
 	"id": "header-navigation",
 	"name": "Header navigation",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Various functions to navigate between headers.",
 	"author": "readwithai",
