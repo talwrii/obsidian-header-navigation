@@ -15,7 +15,7 @@ const parseRemarkPos = (p: RemarkPosition) => {
 export default class HeaderNavPlugin extends Plugin {
     async onload() {
         this.addCommand({
-            id: 'header-navigation-back',
+            id: 'back-to-heading',
             name: 'Jump back to heading',
             editorCallback: (editor: Editor, view: MarkdownView) => {
                 this.backToHeading(editor)
@@ -23,7 +23,7 @@ export default class HeaderNavPlugin extends Plugin {
         });
 
         this.addCommand({
-            id: 'header-navigation-forward',
+            id: 'forward',
             name: 'Jump to next heading at the same level',
             editorCallback: (editor: Editor, view: MarkdownView) => {
                 this.forwardHeading(editor)
@@ -31,15 +31,7 @@ export default class HeaderNavPlugin extends Plugin {
         });
 
         this.addCommand({
-            id: 'header-navigation-toggle-fold',
-            name: 'Toggle header folding',
-            editorCallback: (editor: Editor, view: MarkdownView) => {
-                this.toggleFold(editor)
-            }
-        });
-
-        this.addCommand({
-            id: 'header-navigation-backward',
+            id: 'backward',
             name: 'Jump to previous heading at the same level',
             editorCallback: (editor: Editor, view: MarkdownView) => {
                 this.backwardHeading(editor)
@@ -47,7 +39,15 @@ export default class HeaderNavPlugin extends Plugin {
         });
 
         this.addCommand({
-            id: 'header-navigation-parent',
+            id: 'toggle-fold',
+            name: 'Toggle header folding',
+            editorCallback: (editor: Editor, view: MarkdownView) => {
+                this.toggleFold(editor)
+            }
+        });
+
+        this.addCommand({
+            id: 'parent',
             name: 'Jump to parent heading',
             editorCallback: (editor: Editor, view: MarkdownView) => {
                 this.upHeading(editor)
@@ -55,7 +55,7 @@ export default class HeaderNavPlugin extends Plugin {
         })
 
         this.addCommand({
-            id: 'header-navigation-child',
+            id: 'child',
             name: 'Jump to the first child of current header',
             editorCallback: (editor: Editor, view: MarkdownView) => {
                 this.firstChild(editor)
