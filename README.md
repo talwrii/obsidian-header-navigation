@@ -27,7 +27,9 @@ I would suggest binding these commands to hotkeys. You might find a plugin like 
 # Influences and related tools
 This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>.
 
-This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser and its source code is included (under and MIT license) within the js output.
+This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser and its source code is included (under and MIT license) within the built `main.js` file.
+
+This plugin was based on the [obsidian sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 
 [Quiet outline](https://github.com/guopenghui/obsidian-quiet-outline) provides a sidebar tool similar to a "code browser" that allows you to perform similar motions with a mouse, and well as reorder headings.
 
