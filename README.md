@@ -9,23 +9,23 @@ It is a third party plugin and has no affiliation with Obsidian.
 # Installation
 This plugin should be available through obsidian community plugins.
 
-Alternatively you can install it directly by
+Alternatively, you can install it directly by:
 
 1. Cloning the git repository into `.obsidian/plugins` in your vault
 1. Running `npm install`, `npm run dev` in the repository
 1. Reloading obsidian
 1. Enabling the plugin in the community plugins tab of settings.
 
-# Using
-Press C-P to open the command palette and search for "header nagivation".
+# Usage
+Press Ctrl-P to open the command palette and search for "header nagivation".
 This will show the commands that this plugin provides.
 
-I would suggest binding these commands to hotkeys. You might find a plugin like [sequence hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys) useful, this allows you to define a "prefix" key such as C-m for motion commands so you can then assing C-m Up etc for moving around headers.
+I would suggest binding these commands to hotkeys. You might find a plugin like [sequence hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys) useful: this allows you to define a "prefix" key such as `Ctrl-m` for motion commands so that you can then assign e.g `Ctrl-m Up` etc for moving around headers.
 
 ![demonstraction of features](demo.gif)
 
 # Influences and related tools
-This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>
+This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>.
 
 This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser and its source code is included (under and MIT license) within the js output.
 
