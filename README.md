@@ -17,7 +17,7 @@ Alternatively, you can install it directly by:
 1. Enabling the plugin in the community plugins tab of settings.
 
 # Usage
-Press Ctrl-P to open the command palette and search for "header nagivation".
+Press `Ctrl-p` to open the command palette and search for "header nagivation".
 This will show the commands that this plugin provides.
 
 I would suggest binding these commands to hotkeys. You might find a plugin like [sequence hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys) useful: this allows you to define a "prefix" key such as `Ctrl-m` for motion commands so that you can then assign e.g `Ctrl-m Up` etc for moving around headers.
