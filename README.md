@@ -1,12 +1,12 @@
 # Header navigation plugin
 
+[Blog post](https://medium.com/@readwithai/a-header-navigation-plugin-for-the-obsidian-markdown-editor-924656446fee), [@readwithai](https://x.com/readwithai)
+
 This is a header navigation plugin for the markdown editor called Obsidian.
 This plugin lets you quickly navigate between headers and fold them.
 It provides a command to toggle folding of a header.
 
 It is a third-party plugin and has no affiliation with the Obsidian editor.
-
-[Blog post](https://medium.com/@readwithai/a-header-navigation-plugin-for-the-obsidian-markdown-editor-924656446fee), [@readwithai](https://x.com/readwithai)
 
 # Installation
 This plugin should is available through the "Community plugins" features of Obsidian's settings.
