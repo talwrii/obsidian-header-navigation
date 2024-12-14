@@ -34,6 +34,8 @@ This plugin was based on the [obsidian sample plugin](https://github.com/obsidia
 [Quiet outline](https://github.com/guopenghui/obsidian-quiet-outline) provides a sidebar tool similar to a "code browser" that allows you to perform similar motions with a mouse, and well as reorder headings.
 
 # About me
+*If you like this you might like [obsidian-repl](https://github.com/talwrii/obsidian-repl)*
+
 I make productivity tools and AI tools related to reading and research.
 If that sounds interesting you can follow me on <a href="https://x.com/readwithai">twitter</a> or <a href="https://bsky.app/profile/readwithai.bsky.social">bluesky</a>.
 
