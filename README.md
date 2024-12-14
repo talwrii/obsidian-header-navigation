@@ -4,7 +4,7 @@
 
 This is a header navigation plugin for the markdown editor called Obsidian.
 This plugin lets you quickly navigate between headers and fold them.
-It provides a command to toggle folding of a header.
+It provides a command to toggle the folding of a header.
 
 It is a third-party plugin and has no affiliation with the Obsidian editor.
 
