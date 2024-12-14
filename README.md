@@ -1,13 +1,13 @@
 # Header navigation plugin
 
-This is a header navivation for the markdown editor called Obsidian.
+This is a header navigation plugin for the markdown editor called Obsidian.
 This plugin lets you quickly navigate between headers and fold them.
 It provides a command to toggle folding of a header.
 
 It is a third party plugin and has no affiliation with Obsidian.
 
 # Installation
-This plugin should be available through obsidian community plugins.
+This plugin should is available through the "Community plugins" features of Obsidian's settings.
 
 Alternatively, you can install it directly by:
 
@@ -34,7 +34,7 @@ This plugin was based on the [obsidian sample plugin](https://github.com/obsidia
 [Quiet outline](https://github.com/guopenghui/obsidian-quiet-outline) provides a sidebar tool similar to a "code browser" that allows you to perform similar motions with a mouse, and well as reorder headings.
 
 # About me
-*If you like this you might like [obsidian-repl](https://github.com/talwrii/obsidian-repl)*
+*If you like this you might like my [repl] plugin(https://github.com/talwrii/obsidian-repl) *
 
 I make productivity tools and AI tools related to reading and research.
 If that sounds interesting you can follow me on <a href="https://x.com/readwithai">twitter</a> or <a href="https://bsky.app/profile/readwithai.bsky.social">bluesky</a>.
