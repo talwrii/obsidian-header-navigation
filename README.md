@@ -1,5 +1,9 @@
 # Header navigation plugin
+This is a header navivation plugin for the markdown editor called Obsidian.
+It lets you quickly navigate between headers and fold them.
+It provides a command to toggle the folding of a header.
 
+<<<<<<< HEAD
 [Blog post](https://medium.com/@readwithai/a-header-navigation-plugin-for-the-obsidian-markdown-editor-924656446fee), [@readwithai](https://x.com/readwithai)
 
 This is a header navigation plugin for the markdown editor called Obsidian.
@@ -10,6 +14,12 @@ It is a third-party plugin and has no affiliation with the Obsidian editor.
 
 # Installation
 This plugin should is available through the "Community plugins" features of Obsidian's settings.
+=======
+This is a third-party plugin and has no affiliation with Obsidian.
+
+# Installation
+This plugin should be available as an Obsidian community plugin.
+>>>>>>> bc451c9 (fix up markdown)
 
 Alternatively, you can install it directly by:
 
@@ -20,14 +30,14 @@ Alternatively, you can install it directly by:
 
 # Usage
 Press `Ctrl-p` to open the command palette and search for "header nagivation".
-This will show the commands that this plugin provides.
+You will then have a list of command that this plugin provides.
 
 I would suggest binding these commands to hotkeys. You might find a plugin like [sequence hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys) useful: this allows you to define a "prefix" key such as `Ctrl-m` for motion commands so that you can then assign e.g `Ctrl-m Up` etc for moving around headers.
 
 ![demonstraction of features](demo.gif)
 
 # Influences and related tools
-This is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>.
+This tool is very much influenced by the functions provided by emacs <a href="https://orgmode.org/">org-mode</a>.
 
 This project uses the [remark](https://github.com/remarkjs/remark/) markdown parser and its source code is included (under and MIT license) within the built `main.js` file.
 
@@ -36,7 +46,7 @@ This plugin was based on the [obsidian sample plugin](https://github.com/obsidia
 [Quiet outline](https://github.com/guopenghui/obsidian-quiet-outline) provides a sidebar tool similar to a "code browser" that allows you to perform similar motions with a mouse, and well as reorder headings.
 
 # About me
-*If you like this you might like my [repl for obsidian](https://github.com/talwrii/obsidian-repl)*
+*If you like this you might like my [plugin-repl for obsidian](https://github.com/talwrii/obsidian-repl)* that lets you quickly script Obsidian.
 
 I make productivity tools and AI tools related to reading and research.
 If that sounds interesting you can follow me on <a href="https://x.com/readwithai">twitter</a> or <a href="https://bsky.app/profile/readwithai.bsky.social">bluesky</a>.
